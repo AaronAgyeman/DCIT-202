@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "BuyAll.app"
-               BlueprintName = "BuyAll"
-               ReferencedContainer = "container:BuyAll.xcodeproj">
+               BuildableName = "allhere.app"
+               BlueprintName = "allhere"
+               ReferencedContainer = "container:allhere.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "BuyAllTests.xctest"
-               BlueprintName = "BuyAllTests"
-               ReferencedContainer = "container:BuyAll.xcodeproj">
+               BuildableName = "allhereTests.xctest"
+               BlueprintName = "allhereTests"
+               ReferencedContainer = "container:allhere.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "BuyAll.app"
-            BlueprintName = "BuyAll"
-            ReferencedContainer = "container:BuyAll.xcodeproj">
+            BuildableName = "allhere.app"
+            BlueprintName = "allhere"
+            ReferencedContainer = "container:allhere.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "BuyAll.app"
-            BlueprintName = "BuyAll"
-            ReferencedContainer = "container:BuyAll.xcodeproj">
+            BuildableName = "allhere.app"
+            BlueprintName = "allhere"
+            ReferencedContainer = "container:allhere.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

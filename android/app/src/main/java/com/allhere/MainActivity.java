@@ -1,4 +1,4 @@
-package com.buyall;
+package com.allhere;
 
 import android.os.Bundle;
 

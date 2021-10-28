@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "BuyAll",
-    "slug": "BuyAll",
+    "name": "allhere",
+    "slug": "allhere",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
     ]
   },
-  "name": "BuyAll"
+  "name": "allhere"
 }
