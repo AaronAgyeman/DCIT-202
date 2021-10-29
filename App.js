@@ -1,32 +1,24 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View,Image } from 'react-native';
+import { StyleSheet, Text, View,Image, TouchableOpacity } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import Intro from './screens/intro'
 
+const stack = createStackNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <StatusBar style="auto" />
-      <Image source={require('./assets/main_pic.jpg')} style={{ width: 200, height: 400, borderRadius:20,}}></Image>
-      <Text style={styles.mainStyle1}>Hoodville</Text>
-      
-      <Text style={styles.mainStyle1}>login</Text>
-      
-    </View>
-
+   <NavigationContainer>
+     <stack.Navigator>
+       <stack.Screen name="Intro" component={Intro} />
+     </stack.Navigator>
+   </NavigationContainer>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  mainStyle1:{
-    fontSize:30,
-    fontWeight:"bold",
-    
-  }
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//   }
+// });
