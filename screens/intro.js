@@ -2,14 +2,18 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View,Image, TouchableOpacity } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
+import Signup from '../screens/Signup.js';
 
-export default function Intro() {
+ function intro({navigation}) {
+  
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
       <Image source={require('../assets/main_pic.jpg')} style={{ width: 200, height: 400, borderRadius:20,}}></Image>
       <Text style={styles.mainStyle1}>Hoodville</Text>
-      <TouchableOpacity
+      <TouchableOpacity onPress ={() =>
+        navigation.navigate(Signup)
+      }
         style={{
           backgroundColor: '#95a479',
           paddingHorizontal: 20,
@@ -19,10 +23,12 @@ export default function Intro() {
           alignItems: 'center',
           marginTop: 10,
         }}>
-        <Text style={styles.mainStyle2}>Sign up</Text>
+        <Text style={styles.mainStyle2}>Create account</Text>
 
-      </TouchableOpacity>
-      <TouchableOpacity
+      </TouchableOpacity >
+      <TouchableOpacity onPress ={() =>
+        navigation.navigate(Signup)
+      }
         style={{
           backgroundColor: '#95a479',
           paddingHorizontal: 20,
@@ -64,3 +70,4 @@ const styles = StyleSheet.create({
   
   
 });
+export default intro;
