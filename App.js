@@ -6,6 +6,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 import intro from './screens/intro';
 import Signup from './screens/Signup';
 import Main from './screens/Main';
+import cart from './screens/cart';
+
 
 const stack = createStackNavigator();
 
@@ -16,13 +18,10 @@ export default function App({}) {
        <stack.Screen name="intro" component={intro} />
        <stack.Screen name="Signup" component={Signup} />
        <stack.Screen name="Main" component={Main} />
+       <stack.Screen name="cart" component={cart} />
      </stack.Navigator>
    </NavigationContainer>
   );
 }
 
 // const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//   }
-// });

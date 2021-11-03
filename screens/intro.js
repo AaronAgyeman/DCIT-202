@@ -9,13 +9,13 @@ import Signup from '../screens/Signup.js';
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <Image source={require('../assets/main_pic.jpg')} style={{ width: 200, height: 400, borderRadius:20,}}></Image>
+      <Image source={require('../assets/hoodie_pic.jpg')} style={{ width: 200, height: 400, borderRadius:20,}}></Image>
       <Text style={styles.mainStyle1}>Hoodville</Text>
       <TouchableOpacity onPress ={() =>
         navigation.navigate(Signup)
       }
         style={{
-          backgroundColor: '#95a479',
+          backgroundColor: '#ccc29e',
           paddingHorizontal: 20,
           paddingVertical: 5,
           width: '50%',
@@ -30,7 +30,7 @@ import Signup from '../screens/Signup.js';
         navigation.navigate(Signup)
       }
         style={{
-          backgroundColor: '#95a479',
+          backgroundColor: '#ccc29e',
           paddingHorizontal: 20,
           paddingVertical: 5,
           width: '50%',
@@ -50,7 +50,7 @@ import Signup from '../screens/Signup.js';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#c0ccb2',
+    backgroundColor: '#e0e0e0',
     alignItems: 'center',
     justifyContent: 'center',
   },
