@@ -15,7 +15,7 @@ import Signup from '../screens/Signup.js';
         navigation.navigate(Signup)
       }
         style={{
-          backgroundColor: '#ccc29e',
+          backgroundColor: '#b4ac7e',
           paddingHorizontal: 20,
           paddingVertical: 5,
           width: '50%',
@@ -30,7 +30,7 @@ import Signup from '../screens/Signup.js';
         navigation.navigate(Signup)
       }
         style={{
-          backgroundColor: '#ccc29e',
+          backgroundColor: '#b4ac7e',
           paddingHorizontal: 20,
           paddingVertical: 5,
           width: '50%',
@@ -50,7 +50,7 @@ import Signup from '../screens/Signup.js';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#e0e0e0',
+    backgroundColor: '#749288',
     alignItems: 'center',
     justifyContent: 'center',
   },

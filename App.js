@@ -7,6 +7,7 @@ import intro from './screens/intro';
 import Signup from './screens/Signup';
 import Main from './screens/Main';
 import cart from './screens/cart';
+import checkout from './screens/checkout';
 
 
 const stack = createStackNavigator();
@@ -19,6 +20,7 @@ export default function App({}) {
        <stack.Screen name="Signup" component={Signup} />
        <stack.Screen name="Main" component={Main} />
        <stack.Screen name="cart" component={cart} />
+       <stack.Screen name="checkout" component={checkout} />
      </stack.Navigator>
    </NavigationContainer>
   );

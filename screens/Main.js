@@ -172,7 +172,38 @@ import { createStackNavigator } from '@react-navigation/stack';
               <Text style={{paddingTop:10,color:'white',fontSize:18}}>Buy Me</Text>
             </TouchableOpacity>
         </Card>
-            
+        <Card 
+           >
+             <Image source={
+          require ("C:\\Users\\Aaron\\Desktop\\Level 200 2nd Sem\\DCIT 202\\IA\\BuyAll\\assets\\sales11.jpg")
+        } style={{width:270,height:310}}/>
+            <Text style={{marginBottom: 10, marginTop: 20,fontSize:20,fontWeight:'bold',color:'#7793a1'}} h2>
+                Uchiha
+            </Text>
+            <Text  style={{fontSize:15,fontWeight:'bold'}} h4>
+                $45
+            </Text>
+            <TouchableOpacity style={{backgroundColor:'black',height:40,width:'100%',borderRadius:40,alignItems:'center'}}
+            onPress={() => navigation.navigate('cart')}>
+              <Text style={{paddingTop:10,color:'white',fontSize:18}}>Buy Me</Text>
+            </TouchableOpacity>
+        </Card>
+        <Card 
+           >
+             <Image source={
+          require ("C:\\Users\\Aaron\\Desktop\\Level 200 2nd Sem\\DCIT 202\\IA\\BuyAll\\assets\\sales10.jpg")
+        } style={{width:270,height:310}}/>
+            <Text style={{marginBottom: 10, marginTop: 20,fontSize:20,fontWeight:'bold',color:'#7793a1'}} h2>
+                Wings 
+            </Text>
+            <Text  style={{fontSize:15,fontWeight:'bold'}} h4>
+                $45
+            </Text>
+            <TouchableOpacity style={{backgroundColor:'black',height:40,width:'100%',borderRadius:40,alignItems:'center'}}
+            onPress={() => navigation.navigate('cart')}>
+              <Text style={{paddingTop:10,color:'white',fontSize:18}}>Buy Me</Text>
+            </TouchableOpacity>
+        </Card>
             </ScrollView>
             
         </View>

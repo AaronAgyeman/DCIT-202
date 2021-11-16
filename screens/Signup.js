@@ -29,7 +29,7 @@ import { NavigationContainer } from '@react-navigation/native';
         }}/>
      <TouchableOpacity onPress ={() => navigation.navigate('Main')}
      style={{
-          backgroundColor: '#ccc29e',
+          backgroundColor: '#b4ac7e',
           paddingHorizontal: 20,
           paddingVertical: 5,
           width: '50%',
@@ -48,7 +48,7 @@ import { NavigationContainer } from '@react-navigation/native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#7894a2',
+    backgroundColor: '#738d84',
     alignItems: 'center',
     justifyContent: 'center',
   },
