@@ -15,7 +15,7 @@ import { createStackNavigator } from '@react-navigation/stack';
           style={{
             backgroundColor: "white",
             flex: 1,
-            paddingTop: 55,
+            paddingTop: 5,
             paddingHorizontal: 20,
           }}
         >
