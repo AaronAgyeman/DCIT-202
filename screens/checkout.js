@@ -36,7 +36,7 @@ const simpleAlertHandler = ()=>{
         <Card styles={{ backgroundColor: "#f2f2f2" }}>
           <Image
             source={require("C:\\Users\\Aaron\\Desktop\\Level 200 2nd Sem\\DCIT 202\\IA\\BuyAll\\assets\\vc.jpg")}
-            style={{ width: 300, height: 270, resizeMode: "contain" ,}}
+            style={{ width: 280, height: 180, resizeMode: "contain" ,}}
             
           />
           <TextInput
@@ -69,6 +69,23 @@ const simpleAlertHandler = ()=>{
               marginBottom: 20,
             }}
           />
+          <TextInput
+            placeholder={"Enter amount"}
+            style={{
+              height: 42,
+              width: "100%",
+              borderbottomWidth: 1,
+              padding: 10,
+              backgroundColor: "white",
+              borderRadius: 5,
+              marginVertical: 10,
+              borderWidth: 1,
+              borderColor: "#a6a6a6",
+              marginBottom: 20,
+              marginTop:10,
+            }}
+          />
+         
           <TextInput
             placeholder={"Enter pin"}
             style={{
@@ -111,6 +128,7 @@ const simpleAlertHandler = ()=>{
               marginBottom: 20,
             }}
           />
+          
           <TouchableOpacity
             onPress={simpleAlertHandler }
             style={{
