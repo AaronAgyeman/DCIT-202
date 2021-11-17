@@ -19,7 +19,9 @@ import { createStackNavigator } from "@react-navigation/stack";
 import Signup from "../screens/Signup.js";
 
 function Main({ navigation }) {
-
+const simpleAlertHandler = ()=>{
+    alert("Thank you and come back soon")
+}
     return (
     
     <View
@@ -48,7 +50,8 @@ function Main({ navigation }) {
               marginVertical: 10,
               borderWidth: 1,
               borderColor: "#a6a6a6",
-              marginBottom: 4,
+              marginBottom: 20,
+              marginTop:20,
             }}
           />
           <TextInput
@@ -62,7 +65,7 @@ function Main({ navigation }) {
               borderRadius: 5,
               borderWidth: 1,
               borderColor: "#a6a6a6",
-              marginBottom: 4,
+              marginBottom: 20,
             }}
           />
           <TextInput
@@ -76,7 +79,7 @@ function Main({ navigation }) {
               borderRadius: 5,
               borderWidth: 1,
               borderColor: "#a6a6a6",
-              marginBottom: 4,
+              marginBottom: 20,
             }}
           />
           <TextInput
@@ -90,7 +93,7 @@ function Main({ navigation }) {
               borderRadius: 5,
               borderWidth: 1,
               borderColor: "#a6a6a6",
-              marginBottom: 4,
+              marginBottom: 20,
             }}
           />
           <TextInput
@@ -104,22 +107,24 @@ function Main({ navigation }) {
               borderRadius: 5,
               borderWidth: 1,
               borderColor: "#a6a6a6",
-              marginBottom: 4,
+              marginBottom: 20,
             }}
           />
           <TouchableOpacity
-            onPress={() => navigation.navigate(Signup)}
+            onPress={simpleAlertHandler }
             style={{
               backgroundColor: "#b4ac7e",
               paddingHorizontal: 20,
               paddingVertical: 5,
               width: "50%",
               borderRadius: "25%",
-              alignItems: "center",
+              justifyContent: "center",
               marginTop: 10,
+              height:"7%",
+              marginLeft: "24%",
             }}
           >
-            <Text style={{ width: "100%", borderRadius: 5 }}>Pay now</Text>
+            <Text style={{ width: "100%", borderRadius: 5,justifyContent:"center",paddingLeft:20,}}>Pay now</Text>
           </TouchableOpacity>
         </Card>
       </ScrollView>
