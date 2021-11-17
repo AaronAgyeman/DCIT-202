@@ -20,7 +20,7 @@ import Signup from "../screens/Signup.js";
 
 function Main({ navigation }) {
 const simpleAlertHandler = ()=>{
-    alert("Thank you and come back soon")
+    alert("Thank you and come back soon ☺️")
 }
     return (
     
@@ -35,8 +35,9 @@ const simpleAlertHandler = ()=>{
       <ScrollView>
         <Card styles={{ backgroundColor: "#f2f2f2" }}>
           <Image
-            source={require("C:\\Users\\Aaron\\Desktop\\Level 200 2nd Sem\\DCIT 202\\IA\\BuyAll\\assets\\visa.jpg")}
-            style={{ width: 270, height: 250 }}
+            source={require("C:\\Users\\Aaron\\Desktop\\Level 200 2nd Sem\\DCIT 202\\IA\\BuyAll\\assets\\vc.jpg")}
+            style={{ width: 300, height: 300, resizeMode: "contain" }}
+            
           />
           <TextInput
             placeholder={"Enter name"}
