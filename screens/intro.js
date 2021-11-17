@@ -9,6 +9,7 @@ import Signup from '../screens/Signup.js';
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
+      
       <Image source={require('../assets/hoodie_pic.jpg')} style={{ width: 200, height: 400, borderRadius:20,}}></Image>
       <Text style={styles.mainStyle1}>Hoodville</Text>
       <TouchableOpacity onPress ={() =>

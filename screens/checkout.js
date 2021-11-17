@@ -36,7 +36,7 @@ const simpleAlertHandler = ()=>{
         <Card styles={{ backgroundColor: "#f2f2f2" }}>
           <Image
             source={require("C:\\Users\\Aaron\\Desktop\\Level 200 2nd Sem\\DCIT 202\\IA\\BuyAll\\assets\\vc.jpg")}
-            style={{ width: 300, height: 300, resizeMode: "contain" }}
+            style={{ width: 300, height: 270, resizeMode: "contain" ,}}
             
           />
           <TextInput

@@ -18,7 +18,7 @@ export default function App({}) {
      <stack.Navigator>
        <stack.Screen name="intro" component={intro} />
        <stack.Screen name="Signup" component={Signup} />
-       <stack.Screen name="Main" component={Main} />
+       <stack.Screen name="Main" component={Main} options= {{title   :"Hoodville"}}/>
        <stack.Screen name="cart" component={cart} />
        <stack.Screen name="checkout" component={checkout} />
      </stack.Navigator>
